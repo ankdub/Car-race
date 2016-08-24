@@ -1,0 +1,237 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+body {
+line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+display:block;
+}
+nav ul {
+list-style:none;
+}
+blockquote, q {
+quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:'';
+content:none;
+}
+a {
+margin:0;
+padding:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+/* change colours to suit your needs */
+ins {
+background-color:#ff9;
+color:#000;
+text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+background-color:#ff9;
+color:#000;
+font-style:italic;
+font-weight:bold;
+}
+del {
+text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+border-bottom:1px dotted;
+cursor:help;
+}
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+display:block;
+height:1px;
+border:0;
+border-top:1px solid #cccccc;
+margin:1em 0;
+padding:0;
+}
+input, select {
+vertical-align:middle;
+}
+	#container 
+	 {
+
+        width: 792px;
+        height: 800px;
+		margin: 0px  auto;
+		overflow:hidden;
+		position: relative;
+		
+		
+		border :3px solid red;
+      }
+	 #sprite 
+	 {
+
+        width: 792px;
+        height: 800px;
+        background-image:url(../image/bg.jpg);
+        margin: 0px  auto;
+		 position: absolute;
+		
+		 border :3px solid red;
+      }
+	  #gameOver
+	 {
+
+        width: 792px;
+        height: 800px;
+        background-image:url(../image/gameover.jpg);
+        margin: 0px  auto;
+		z-index:-1;
+		 position: absolute;
+		
+		 border :3px solid red;
+      }
+	#myCar
+	 {
+
+        width: 71px;
+        height: 150px;
+        background:url(../image/car_green.png) no-repeat;
+		 position: absolute;
+		 top:610px;
+		 left:295px;
+		 z-index:5;
+      }
+	  #myCarJump
+	 {
+
+        width: 95px;
+        height: 200px;
+		
+        background:url(../image/car_green_jump.png) no-repeat;
+		 position: absolute;
+		 display:block;
+		 opacity: 0;
+		 top:610px;
+		 left:295px;
+		 z-index:5;
+      }
+	  #redCar1
+	 {
+
+        width: 74px;
+        height: 150px;
+        background:url(../image/car_red.jpg) no-repeat;
+		 position: absolute;
+		 top:10px;
+		 left:485px;
+		 z-index:4;
+		
+      }
+	  #redCar2
+	 {
+
+        width: 74px;
+        height: 150px;
+        background:url(../image/car_red.jpg) no-repeat;
+		 position: absolute;
+		 top:10px;
+		 left:120px;
+		 z-index:4;
+		 
+      }
+	  #redCar3
+	 {
+
+        width: 74px;
+        height: 150px;
+        background:url(../image/car_red.jpg) no-repeat;
+		 position: absolute;
+		 top:10px;
+		 left:295px;
+		 z-index:4;
+		 
+      }
+	  
+	  #whiteCar
+	 {
+
+        width: 75px;
+        height: 150px;
+        background:url(../image/car_white.png) no-repeat;
+		 position: absolute;
+		 top:10px;
+		 left:470px;
+		 z-index:4;
+		
+      }
+	  #score
+	 {
+		font-weight: bold;
+		font-Size:40pt; 
+		color:#F8F8F8;
+		top:40px;
+		left:452px;
+		position: absolute;
+		z-index:7;
+		display:none;
+		
+      }
+	  #jumpText
+	 {
+		font-weight: bold;
+		font-Size:24pt; 
+		color:#000000;
+		top:40px;
+		left:1054px;
+		position: absolute;
+		z-index:7;
+		display:block;
+		
+      }
+	  
+	#bug1 
+	 {
+
+        width: 100px;
+        height: 60px;
+        background-image:url(bug2.png);
+		 position: absolute;
+		 top:200px;
+		 z-index:0;
+      }  
+	#invertbug  
+	{
+
+        width: 126px;
+        height: 100px;
+        background-image:url(invertBug.png);
+		 position: absolute;
+		 top:520px;
+		 z-index:0;
+		 display:none;
+		 left : 600px
+      }
